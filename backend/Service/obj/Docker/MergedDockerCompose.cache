@@ -1,0 +1,13 @@
+networks:
+  default:
+    external: true
+    name: nat
+services:
+  webapplication1:
+    build:
+      context: D:\Dev\github\Entrevista\CompuGraf\Service\WebApplication1
+      dockerfile: Dockerfile
+    image: webapplication1
+    ports:
+    - target: 80
+version: '3.4'

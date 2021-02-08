@@ -1,0 +1,56 @@
+<form (ngSubmit)="submitForm(form)">
+  <h4 class="my-2">Cadastro de Pessoas</h4>
+  <div class="form-row">
+    <div class="col-12 form-group">
+      <label for="name" class="font-weight-bold">Nome:</label>
+      <input type="text" class="form-control" placeholder="Ex.: João" [(ngModel)]="person.name" name="name" >
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-6 form-group">
+      <label for="lastname" class="font-weight-bold">Sobrenome:</label>
+      <input type="text" class="form-control" placeholder="Ex.: da Silva" [(ngModel)]="person.lastname" name="lastname">
+    </div>
+    <div class="col-6 form-group form-group">
+      <label for="nationality" class="font-weight-bold">Nacionalidade:</label>
+      <input type="text" class="form-control" placeholder="Ex.: brasileira" [(ngModel)]="person.nationality" name="nationality">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-4">
+      <label class="font-weight-bold" for="cep">CEP:</label>
+      <input type="number" class="form-control" placeholder="Ex.: 00000-000" [(ngModel)]="person.zipcode" name="zipcode" (change)="checkCEP($event.target.value)" (keyup)="checkCEP($event.target.value)">
+    </div>
+    <div class="form-group col-4">
+      <label class="font-weight-bold" for="uf">Estado:</label>
+      <select name="uf" id="uf" class="form-control" [(ngModel)]="person.uf" >
+        <option value="" disabled selected>Selecionar</option>
+        <option *ngFor="let state of states" [value]="state.uf">{{state.name}}</option>
+      </select>
+    </div>
+    <div class="form-group col-4">
+      <label for="city" class="font-weight-bold">Cidade:</label>
+      <input type="text" class="form-control" placeholder="Ex.: Cidade" [(ngModel)]="person.city" name="city">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-12 form-group">
+      <label for="address" class="font-weight-bold">Logradouro:</label>
+      <input type="text" class="form-control" placeholder="Ex.: Rua Boa Vista 253" [(ngModel)]="person.address" name="address">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-6 form-group">
+      <label for="email" class="font-weight-bold">E-mail:</label>
+      <input type="text" class="form-control" placeholder="Ex.: joao@contoso.com" [(ngModel)]="person.email" name="email">
+    </div>
+    <div class="col-6 form-group form-group">
+      <label for="telephone" class="font-weight-bold">Telefone:</label>
+      <input type="text" class="form-control" placeholder="Ex.: (00) 0000-0000" [(ngModel)]="person.telephone" name="telephone">
+    </div>
+  </div>
+  <div class="float-right">
+    <button type="submit" class="btn btn-success mx-1">Salvar</button>
+    <a routerLink="/" class="btn btn-danger mx-1">Voltar</a>
+  </div>
+</form>

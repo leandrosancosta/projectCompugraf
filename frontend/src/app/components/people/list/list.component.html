@@ -1,0 +1,26 @@
+<a routerLink="/add" class="btn btn-primary float-right my-2">Novo</a>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>
+        Nome
+      </th>
+      <th>
+        Telefone
+      </th>
+      <th>
+        Opções
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let person of people">
+      <td>{{ person.name }}</td>
+      <td>{{ person.telephone }}</td>
+      <td>
+        <button class="btn btn-primary mx-1"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+        <button class="btn btn-danger mx-1"><i class="fa fa-trash" aria-hidden="true"></i></button>
+      </td>
+    </tr>
+  </tbody>
+</table>
