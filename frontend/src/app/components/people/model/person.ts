@@ -1,10 +1,9 @@
 class Person{
     public id: number;
     public name: string;
-    public lastname: string;
-    public cpf: string;
+    public lastName: string;
     public nationality: string;
-    public zipcode: string;
+    public zipCode: string;
     public uf: string;
     public city: string;
     public address: string;

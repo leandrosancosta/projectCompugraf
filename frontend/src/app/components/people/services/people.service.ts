@@ -19,4 +19,23 @@ export class PeopleService {
     return this.http.post<any>(`http://localhost:52770/api/people/add`,model);
 
   }
+
+  public edit(model: Person){
+    return this.http.post<any>(`http://localhost:52770/api/people/edit`,model);
+  }
+
+  
+  public getById(id){
+    let person: Person = new Person();
+    person.id = id;
+    
+    return this.http.post<any>(`http://localhost:52770/api/people/get`,person);
+  }
+
+  public delete(id){
+    let person: Person = new Person();
+    person.id = id;
+
+    return this.http.post<any>(`http://localhost:52770/api/people/delete`,person);
+  }
 }

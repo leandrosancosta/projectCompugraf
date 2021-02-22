@@ -242,12 +242,10 @@ D:\Dev\github\Entrevista\CompuGraf\backend\Service\WebApplication1\bin\pt-br\Mic
 D:\Dev\github\Entrevista\CompuGraf\backend\Service\WebApplication1\bin\pt-br\System.Net.Http.Formatting.resources.dll
 D:\Dev\github\Entrevista\CompuGraf\backend\Service\WebApplication1\bin\pt-br\System.Web.Http.resources.dll
 D:\Dev\github\Entrevista\CompuGraf\backend\Service\WebApplication1\bin\pt-br\System.Web.Http.WebHost.resources.dll
-D:\Dev\github\Entrevista\CompuGraf\backend\Service\WebApplication1\obj\Debug\Service.csprojAssemblyReference.cache
-D:\Dev\github\Entrevista\CompuGraf\backend\Service\WebApplication1\obj\Debug\Service.Migrations.PersonTable.resources
-D:\Dev\github\Entrevista\CompuGraf\backend\Service\WebApplication1\obj\Debug\Service.Migrations.PersonTableUpdate.resources
-D:\Dev\github\Entrevista\CompuGraf\backend\Service\WebApplication1\obj\Debug\Service.csproj.GenerateResource.cache
 D:\Dev\github\Entrevista\CompuGraf\backend\Service\WebApplication1\obj\Debug\Service.csproj.CoreCompileInputs.cache
 D:\Dev\github\Entrevista\CompuGraf\backend\Service\WebApplication1\obj\Debug\Service.csproj.CopyComplete
 D:\Dev\github\Entrevista\CompuGraf\backend\Service\WebApplication1\obj\Debug\Service.dll
 D:\Dev\github\Entrevista\CompuGraf\backend\Service\WebApplication1\obj\Debug\Service.pdb
-D:\Dev\github\Entrevista\CompuGraf\backend\Service\WebApplication1\obj\Debug\Service.Migrations.Update2.resources
+D:\Dev\github\Entrevista\CompuGraf\backend\Service\WebApplication1\obj\Debug\Service.csprojAssemblyReference.cache
+D:\Dev\github\Entrevista\CompuGraf\backend\Service\WebApplication1\obj\Debug\Service.Migrations.PeopleUpdate.resources
+D:\Dev\github\Entrevista\CompuGraf\backend\Service\WebApplication1\obj\Debug\Service.csproj.GenerateResource.cache

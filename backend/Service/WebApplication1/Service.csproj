@@ -121,17 +121,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202102081448133_PersonTable.cs" />
-    <Compile Include="Migrations\202102081448133_PersonTable.Designer.cs">
-      <DependentUpon>202102081448133_PersonTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202102081451397_PersonTableUpdate.cs" />
-    <Compile Include="Migrations\202102081451397_PersonTableUpdate.Designer.cs">
-      <DependentUpon>202102081451397_PersonTableUpdate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202102081752153_Update2.cs" />
-    <Compile Include="Migrations\202102081752153_Update2.Designer.cs">
-      <DependentUpon>202102081752153_Update2.cs</DependentUpon>
+    <Compile Include="Migrations\202102091948001_PeopleUpdate.cs" />
+    <Compile Include="Migrations\202102091948001_PeopleUpdate.Designer.cs">
+      <DependentUpon>202102091948001_PeopleUpdate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Person.cs" />
@@ -154,14 +146,8 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202102081448133_PersonTable.resx">
-      <DependentUpon>202102081448133_PersonTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202102081451397_PersonTableUpdate.resx">
-      <DependentUpon>202102081451397_PersonTableUpdate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202102081752153_Update2.resx">
-      <DependentUpon>202102081752153_Update2.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202102091948001_PeopleUpdate.resx">
+      <DependentUpon>202102091948001_PeopleUpdate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
